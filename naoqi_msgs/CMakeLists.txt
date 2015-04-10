@@ -22,6 +22,10 @@ add_message_files(DIRECTORY msg
     AudioBuffer.msg
     Bumper.msg
     FadeRGB.msg
+    MemoryList.msg
+    MemoryPairFloat.msg
+    MemoryPairInt.msg
+    MemoryPairString.msg
     JointAnglesWithSpeed.msg
     JointAngleTrajectory.msg
     TactileTouch.msg
