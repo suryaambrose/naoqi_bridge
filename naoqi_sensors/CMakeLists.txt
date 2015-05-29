@@ -32,6 +32,7 @@ find_package(Boost REQUIRED COMPONENTS thread program_options)
 
 # auto-generate dynamic reconfiguration GUI before catkin_package()
 generate_dynamic_reconfigure_options(cfg/NaoqiCamera.cfg
+                                     cfg/NaoqiStereoCamera.cfg
                                      cfg/NaoqiMicrophone.cfg)
 
 if( ${NAOqi_FOUND} AND ${Boost_FOUND} )
